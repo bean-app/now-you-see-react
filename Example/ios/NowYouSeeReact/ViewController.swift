@@ -15,16 +15,5 @@ class ViewController: UIViewController {
 		self.title = "Now You See React"
 		
 		self.view.trackView()
-		
-		#if DEBUG
-		let button = UIBarButtonItem(title: "Debug", style: .done, target: self, action: #selector(openDebugConsole))
-		self.navigationItem.rightBarButtonItem = button
-		#endif
 	}
-	
-	#if DEBUG
-	@objc func openDebugConsole() {
-		NowYou.debug()
-	}
-	#endif
 }

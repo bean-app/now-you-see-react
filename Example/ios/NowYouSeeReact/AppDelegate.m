@@ -19,7 +19,6 @@
 #import <FlipperKitNetworkPlugin/FlipperKitNetworkPlugin.h>
 #import <SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>
 #import <FlipperKitReactPlugin/FlipperKitReactPlugin.h>
-#import "NowYouSeeReact_Demo-Swift.h"
 
 static void InitializeFlipper(UIApplication *application) {
 	FlipperClient *client = [FlipperClient sharedClient];
@@ -31,6 +30,9 @@ static void InitializeFlipper(UIApplication *application) {
 	[client start];
 }
 #endif
+
+#import "NowYouSeeReact_Demo-Swift.h"
+
 
 @implementation AppDelegate
 

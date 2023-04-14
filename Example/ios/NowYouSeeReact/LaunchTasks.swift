@@ -9,7 +9,7 @@
 import Foundation
 import NowYouSeeMe
 import NowYouSeeReact
-import GDPerformanceView_Swift
+//import GDPerformanceView_Swift
 
 @objc class LaunchTasks: NSObject {
     @objc static func perform() {
@@ -17,6 +17,6 @@ import GDPerformanceView_Swift
         NowYou.seeReact()
         
         // start performance monitoring
-        PerformanceMonitor.shared().start()
+//        PerformanceMonitor.shared().start()
     }
 }

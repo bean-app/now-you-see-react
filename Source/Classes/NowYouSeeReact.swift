@@ -26,10 +26,5 @@ extension NowYou {
         // start swizzling
         _ = swizzleRCTViewForTracking
         _ = swizzleRCTScrollViewForTracking
-
-        #if DEBUG
-        // swizzle debug tracker in debug mode
-        _ = swizzleDebugViewTrackerForReact
-        #endif
     }
 }
